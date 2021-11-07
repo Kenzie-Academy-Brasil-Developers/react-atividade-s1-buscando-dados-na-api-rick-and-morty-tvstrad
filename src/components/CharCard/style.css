@@ -1,0 +1,34 @@
+@font-face {
+  font-family: RickandMorty;
+  src: url("../../fonts/get_schwifty.ttf");
+}
+.card {
+  height: 300px;
+  width: 10em;
+  padding: 10px;
+  border: 2px solid white;
+  margin: 10px;
+  background-color: lightgreen;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card p {
+  max-width: 130px;
+}
+.card label {
+  margin: 1em;
+  font-family: RickandMorty;
+}
+.dead {
+  background-color: lightpink;
+}
+.picture {
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+  border: 1px solid white;
+}

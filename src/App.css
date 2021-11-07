@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background-color: darkgrey;
+  background-image: url(./images/teahub.io-rick-and-morty-wallpaper-123959.png);
+}
+.App h1 {
+  border: none;
+  margin: 0;
+  padding: 1em;
+  font-family: RickandMorty;
+  color: aquamarine;
+  font-size: 3em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+@font-face {
+  font-family: RickandMorty;
+  src: url("./fonts/get_schwifty.ttf");
+}
